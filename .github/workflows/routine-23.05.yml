@@ -36,22 +36,22 @@ on:
         - v7.6.6.1-fw-20230717
         - v7.6.6.1-fw-20231024
       EEPROM:
-        description: 'Use nx30pro eeprom and fixed WiFi MAC address'
+        description: '使用nx30pro的eeprom和固定WiFi的MAC地址'
         required: true
         default: true
         type: boolean
       APP_MTK:
-        description: 'Use luci-app-mtk wifi config'
+        description: '使用luci-app-mtk的wifi配置'
         required: true
         default: false
         type: boolean
       NO_DOCKERMAN:
-        description: 'Not build luci-app-dockerman'
+        description: '不构建luci-app-dockerman?'
         required: true
         default: false
         type: boolean
       ssh:
-        description: 'SSH connection to Actions'
+        description: 'SSH连接到Actions?'
         required: false
         default: 'false'
 #  schedule:
